@@ -1,0 +1,14 @@
+# Netlify Build Configuration
+# This file overrides default build settings for a more robust deployment.
+
+[build]
+  # Use NPM to install dependencies and run the build script.
+  # NPM has more reliable handling of optional native dependencies in this environment.
+  command = "npm install && npm run build"
+  
+  # Specify the directory that contains the built assets.
+  publish = "dist"
+
+[build.environment]
+  # Set a specific, stable Long-Term Support (LTS) version of Node.js.
+  NODE_VERSION = "20"

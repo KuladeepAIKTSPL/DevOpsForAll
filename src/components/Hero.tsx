@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
           href="#basics"
           className="inline-block bg-neon-blue text-white font-bold py-3 px-8 rounded-lg text-lg hover:bg-opacity-90 transition-all duration-300 shadow-[0_0_15px_rgba(0,191,255,0.5)] hover:shadow-[0_0_25px_rgba(0,191,255,0.8)]"
         >
-          Start Learning Now
+          Aikshetra Tech Solution
         </motion.a>
       </div>
     </section>

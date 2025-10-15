@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Twitter } from 'lucide-react';
+import { https://github.com/KuladeepAIKTSPL/DevOpsForAll/actions, Linkedin, Twitter } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (

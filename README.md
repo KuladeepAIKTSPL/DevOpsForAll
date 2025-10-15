@@ -1,10 +1,8 @@
 # DevOps for Everyone 🚀
 
-![DevOps for Everyone Preview](https://i.ibb.co/67X3xfSV/devops-preview.png)
+![DevOps for Everyone Preview](https://devopsforall.netlify.app/)
 
 A beautiful, animated, and professional single-page website designed to teach DevOps fundamentals, frameworks, tools, and workflows in an easy-to-understand way for beginners.
-
-**Live Demo:** [Explore the Website](https://alpha.dualite.dev) *(Note: This is a placeholder link)*
 
 ---
 
@@ -76,7 +74,7 @@ To get a local copy up and running, follow these simple steps.
 
 1.  **Clone the repository** (or download the source code):
     ```sh
-    git clone https://github.com/your-username/devops-for-everyone.git
+    git clone https://github.com/KuladeepAIKTSPL/devops-for-everyone.git
     ```
 
 2.  **Navigate to the project directory**:
@@ -106,4 +104,4 @@ To get a local copy up and running, follow these simple steps.
 
 ## ✍️ Author
 
-This project was built by **Dualite Alpha**.
+This project was built by **Aikshetra Tech Solutions**.

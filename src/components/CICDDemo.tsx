@@ -77,13 +77,18 @@ const CICDDemo: React.FC = () => {
             {pipelineStages.map((stage, index) => (
               <React.Fragment key={index}>
                 <motion.div
-                  className="flex flex-col items-center text-center p-4 w-60 h-60 justify-center rounded-lg border-2 transition-all duration-500"
+                  className="flex flex-col items-center text-center p-4 w-60 h-60 justify-center rounded-lg border-2"
                   animate={{
                     borderColor: activeStage >= index ? '#00BFFF' : '#374151',
-                    boxShadow: activeStage === index ? '0 0 20px rgba(0, 191, 255, 0.6)' : 'none',
+                    boxShadow: activeStage === index 
+                      ? ['0 0 15px rgba(0, 191, 255, 0.5)', '0 0 25px rgba(0, 191, 255, 0.8)', '0 0 15px rgba(0, 191, 255, 0.5)'] 
+                      : 'none',
                     scale: activeStage === index ? 1.05 : 1
                   }}
-                  transition={{ duration: 0.5 }}
+                  transition={{
+                    duration: 0.5,
+                    boxShadow: activeStage === index ? { duration: 1.5, repeat: Infinity, ease: "easeInOut" } : { duration: 0.5 }
+                  }}
                 >
                   <stage.icon className="w-12 h-12 mb-3 transition-colors duration-500" style={{ color: activeStage >= index ? '#00BFFF' : '#9CA3AF' }} />
                   <h3 className="text-xl font-bold mb-2 transition-colors duration-500" style={{ color: activeStage >= index ? '#FFFFFF' : '#D1D5DB' }}>{stage.title}</h3>
@@ -107,13 +112,18 @@ const CICDDemo: React.FC = () => {
             {pipelineStages.map((stage, index) => (
               <React.Fragment key={index}>
                 <motion.div
-                  className="flex flex-col items-center text-center p-6 w-full max-w-sm rounded-lg border-2 transition-all duration-500"
+                  className="flex flex-col items-center text-center p-6 w-full max-w-sm rounded-lg border-2"
                    animate={{
                     borderColor: activeStage >= index ? '#00BFFF' : '#374151',
-                    boxShadow: activeStage === index ? '0 0 20px rgba(0, 191, 255, 0.6)' : 'none',
+                    boxShadow: activeStage === index 
+                      ? ['0 0 15px rgba(0, 191, 255, 0.5)', '0 0 25px rgba(0, 191, 255, 0.8)', '0 0 15px rgba(0, 191, 255, 0.5)'] 
+                      : 'none',
                     scale: activeStage === index ? 1.05 : 1
                   }}
-                  transition={{ duration: 0.5 }}
+                  transition={{
+                    duration: 0.5,
+                    boxShadow: activeStage === index ? { duration: 1.5, repeat: Infinity, ease: "easeInOut" } : { duration: 0.5 }
+                  }}
                 >
                   <stage.icon className="w-10 h-10 mb-3 transition-colors duration-500" style={{ color: activeStage >= index ? '#00BFFF' : '#9CA3AF' }} />
                   <h3 className="text-lg font-bold mb-2 transition-colors duration-500" style={{ color: activeStage >= index ? '#FFFFFF' : '#D1D5DB' }}>{stage.title}</h3>

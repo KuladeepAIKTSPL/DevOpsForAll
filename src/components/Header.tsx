@@ -8,6 +8,7 @@ const navLinks = [
   { name: 'Tools', href: '#tools' },
   { name: 'CI/CD', href: '#cicd' },
   { name: 'Roadmap', href: '#roadmap' },
+  { name: 'Projects', href: '#projects' },
 ];
 
 const Header: React.FC = () => {

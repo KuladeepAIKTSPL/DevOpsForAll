@@ -5,6 +5,7 @@ import Lifecycle from './components/Lifecycle';
 import Tools from './components/Tools';
 import CICDDemo from './components/CICDDemo';
 import Roadmap from './components/Roadmap';
+import Projects from './components/Projects';
 import Footer from './components/Footer';
 
 const App: React.FC = () => {
@@ -17,6 +18,7 @@ const App: React.FC = () => {
         <Tools />
         <CICDDemo />
         <Roadmap />
+        <Projects />
       </main>
       <Footer />
     </div>

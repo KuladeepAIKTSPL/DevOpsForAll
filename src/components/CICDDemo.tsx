@@ -81,7 +81,7 @@ const CICDDemo: React.FC = () => {
                   animate={{
                     borderColor: activeStage >= index ? '#00BFFF' : '#374151',
                     boxShadow: activeStage === index 
-                      ? ['0 0 15px rgba(0, 191, 255, 0.5)', '0 0 25px rgba(0, 191, 255, 0.8)', '0 0 15px rgba(0, 191, 255, 0.5)'] 
+                      ? ['0 0 20px rgba(0, 191, 255, 0.6)', '0 0 35px rgba(0, 191, 255, 0.9)', '0 0 20px rgba(0, 191, 255, 0.6)']
                       : 'none',
                     scale: activeStage === index ? 1.05 : 1
                   }}
@@ -116,7 +116,7 @@ const CICDDemo: React.FC = () => {
                    animate={{
                     borderColor: activeStage >= index ? '#00BFFF' : '#374151',
                     boxShadow: activeStage === index 
-                      ? ['0 0 15px rgba(0, 191, 255, 0.5)', '0 0 25px rgba(0, 191, 255, 0.8)', '0 0 15px rgba(0, 191, 255, 0.5)'] 
+                      ? ['0 0 20px rgba(0, 191, 255, 0.6)', '0 0 35px rgba(0, 191, 255, 0.9)', '0 0 20px rgba(0, 191, 255, 0.6)']
                       : 'none',
                     scale: activeStage === index ? 1.05 : 1
                   }}

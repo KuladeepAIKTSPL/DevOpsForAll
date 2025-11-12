@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
           <a href="#" className="hover:text-neon-blue transition-colors"><Twitter /></a>
         </div>
         <p>&copy; {new Date().getFullYear()} DevOps for Everyone. All Rights Reserved.</p>
-        <p className="text-sm mt-2">Built by Aikshetra Tech Solutions</p>
+        <p className="text-sm mt-2">Built by Renuka Prasad</p>
       </div>
     </footer>
   );
